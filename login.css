@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orangered;
+  position: relative;
+}
+.alto {
+  height: 100vh;
+  position: relative;
+}
+.card-login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 450px;
+  height: 300px;
+  background-color: rgba(255,255,255,.75);
+}
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
